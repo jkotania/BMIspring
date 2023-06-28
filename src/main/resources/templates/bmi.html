@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <title>BMI Result</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container1">
+  <h1>BMI Result</h1>
+  <p th:text="${calc.getResult()}"></p>
+  <a href="/">Wróć</a>
+</div>
+</body>
+</html>
